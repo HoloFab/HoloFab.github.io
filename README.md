@@ -2,4 +2,4 @@
 
 Site For the Plugin
 
-[Built site](https://holofab.github.io/holofab/)
+[Built site](https://holofab.github.io/)

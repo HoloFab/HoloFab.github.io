@@ -1,18 +1,21 @@
 ---
-layout: page
+layout: default
 title: About
-permalink: /about/
+permalink: /about
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+We are an international team of architects passionate about integrating **Technology in Architecture**. All three of us passed through Institute of Advanced Architecture of Catalonia where the seeds of the project began.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+<ul class="team">
+{% for person in site.data.team %}
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+    <li class = "teamMember">
+        <img src="{{ person.image }}">
+        <h3>{{ person.name }}</h3>
+        <p>{{ person.shortDescription }}</p>
+        <a href="{{ person.link }}">contact</a>
+    </li>
 
+{% endfor %}
 
-[jekyll-organization]: https://github.com/jekyll
+</ul>
