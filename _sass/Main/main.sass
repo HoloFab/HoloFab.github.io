@@ -1,13 +1,20 @@
 body
+  width: 100%
+  margin: 0
   font-family: "Raleway"
   align-items: center
   position: relative
   background: $backgroundColor
   color: $textColor
 
+  .limitedWidth
+    width: $maxWidth
+
+    @media (max-width: $maxWidth)
+      width: 95%
+
   .contentContainer
     display: block
-    width: $maxWidth
     margin: 5vh auto 5vh auto
     text-align: justify
 
