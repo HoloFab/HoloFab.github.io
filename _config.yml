@@ -24,14 +24,29 @@ description:          >- # this means to ignore newlines until "baseurl:"
   This is a website for a tool to communicate between Grasshopper 3D and Augmented Reality devices.
 baseurl:              "" # the subpath of your site, e.g. /blog
 url:                  "https:/holofab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+icon:                 "./assets/images/Holofab.ico"
 
 contacts:
     - content:
-        type:         github account
+        type:         github
         url:          https://github.com/HoloFab
+    - content:
+        type:         instagram
+        url:          https://instagram.com/holographic.fabrication
     - content:
         type:         email
         url:          mailto:holographic.fabrication@gmail.com
+
+menu:
+    - entry:
+        name:         "main"
+        url:          "./"
+    - entry:
+        name:         "about"
+        url:          "./about"
+    # - page:
+    #     name:       "about"
+    #     url:        ./about
 
 # Build settings
 plugins:

@@ -3,12 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: HoloFab
 permalink: /
 ---
-
-<hr>
-
-## HoloFab
 
 This is a base site for the set of **Augmented Reality** tools, that enable architects, designers and digital fabricators to tap into potential of the Mixed Reality Environment enhancing the creative process.
 
@@ -25,10 +22,10 @@ For the moment HoloFab supports **Microsoft Hololens** and **Android devices wit
 
 We are an international team of architects passionate about integrating **Technology in Architecture**. All three of us passed through Institute of Advanced Architecture of Catalonia where the seeds of the project began.
 
-<ul class="team">
+<ul class="team horisontalList">
 {% for person in site.data.team %}
 
-    <li class = "teamMember">
+    <li class = "teamMember horisontalListItem">
         <img src="{{ person.image }}">
         <h3>{{ person.name }}</h3>
         <p>{{ person.shortDescription }}</p>
@@ -45,25 +42,23 @@ We are an international team of architects passionate about integrating **Techno
 
 For the moment the tool is in **beta** stage of development. Latest releases:
 
--   [Github: Holofab for Grasshopper](<>)
--   [Github: Holofab for Android](<>)
--   [Github: Holofab for Hololens](<>)
+-   [Github: Holofab for Grasshopper](https://github.com/HoloFab/HoloFab-Grasshopper/tree/master/_CurrentVersion)
+-   [Github: Holofab for Android](https://github.com/HoloFab/HoloFab-Unity/blob/master/_CurrentVersion/Android/)
+-   [Github: Holofab for Hololens: _coming soon_](<>)
 
-For installation instructions go [here](<>).
+<!-- For installation instructions go [here](<>). -->
 
 This is an opensource project. You can find sources here:
 
 -   [Github: Holofab for Grasshopper](https://github.com/HoloFab/HoloFab-Grasshopper)
 -   [Github: Holofab for Unity](https://github.com/HoloFab/HoloFab-Unity)
 
-For more detailed documentation go [here](<>).
+<!-- For more detailed documentation go [here](<>). -->
 
-For examples go [here](<>).
+<!-- For examples go [here](<>). -->
 
 <hr>
 
 ## Contact
 
 For any proposals, suggestions or bugs found feel free to [contact us](<mailto:{{ site.email }}>).
-
-<hr>

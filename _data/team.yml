@@ -1,13 +1,12 @@
 -   name:              Ardeshir Talaei
-    image:
-    shortDescription:  "Keeping Going . . ."
-    link:              "https://iaac.net/"
+    image:             "./assets/images/team/ardeshir.jpg"
+    shortDescription:  "Ardeshir Talaei is a computational designer holding masters degrees in Advanced Architecture and Robotics and Advance Construction from IAAC. He has worked at multiple architectural design firms and construction projects in Noumena, Barcelona. His main field of research includes robotics, AI, automation, and their applications in design and fabrication."
+    link:              "https://github.com/ArdooTala"
 -   name:              Daniil Koshelyuk
-    image:
-    shortDescription:  "Keeping Going . . ."
+    image:             "./assets/images/team/daniil.jpg"
+    shortDescription:  "Daniil Koshelyuk is an architect exploring the intersection of physical and digital in built environments. He holds Bachelor of Architecture and Master of Advanced Architecture from IAAC. His interests center around creating smarter, more responsive and interactive environments by digitally enhancing architecture-related complex systems."
     link:              "https://daniik.koshelyuk.site/"
 -   name:              Armin Akbari
-    image:
-    shortDescription:  "Armin Akbari is an Architect and an AR enthusiast researching about pushing the scope of construction through virtual blueprints. He pursued his Masters in Architecture at Institute for Advanced Architecture of Catalonia (IAAC) in Barcelona in 2016/18. His thesis ‘Cyber-Physical Construction’, focused on AR fabrication strategies for on-site construction, lead him to start developing AR platforms for the Open Source community.
-He is currently collaborating with the Advanced Architecture Lab at IAAC where he is also working on HoloFab Project, an app for Holographic fabrication. His research aims to combine different industrial manufacturing techniques with virtual data in physical space to enhance the quality of construction."
-    link:              "https://iaac.net/"
+    image:             "./assets/images/team/armin.jfif"
+    shortDescription:  "Armin Akbari is an Architect and an AR enthusiast researching about pushing the scope of construction through virtual blueprints. He pursued his Masters in Architecture at IAAC. His thesis ‘Cyber-Physical Construction’, focused on AR fabrication strategies for on-site construction, lead him to start developing AR platforms for the Open Source community. His research aims to combine different industrial manufacturing techniques with virtual data in physical space to enhance the quality of construction."
+    link:              "https://github.com/armin-akbari"
