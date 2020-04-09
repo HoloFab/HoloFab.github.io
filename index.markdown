@@ -7,6 +7,10 @@ title: HoloFab
 permalink: /
 ---
 
+![HoloFab](./assets/images/GSS19-01.jpg)
+
+<br>
+
 This is a base site for the set of **Augmented Reality** tools, that enable architects, designers and digital fabricators to tap into potential of the Mixed Reality Environment enhancing the creative process.
 
 The tool consists of two parts:
@@ -15,6 +19,12 @@ The tool consists of two parts:
 -   AR application.
 
 For the moment HoloFab supports **Microsoft Hololens** and **Android devices with [ARCore enabled](https://developers.google.com/ar/discover/supported-devices#android_play)**.
+
+<br>
+
+![HoloFab](./assets/images/GSS19-00.jpg)
+
+<br>
 
 <hr>
 
