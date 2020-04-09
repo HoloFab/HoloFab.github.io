@@ -7,7 +7,7 @@ title: HoloFab
 permalink: /
 ---
 
-![HoloFab](./assets/images/GSS19-01.jpg)
+![HoloFab](./assets/images/GSS19-01.png)
 
 <br>
 
