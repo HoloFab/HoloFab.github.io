@@ -39,13 +39,24 @@ contacts:
 menu:
     - entry:
         name:         "main"
-        url:          "./"
+        url:          "/"
     - entry:
         name:         "about"
-        url:          "./about"
+        url:          "/about"
+    - entry:
+        name:         "feed"
+        url:          "/feed"
+    - entry:
+        name:         "issues"
+        url:          "/issues"
     # - page:
     #     name:       "about"
     #     url:        ./about
+
+collections:
+  posts:
+    output:           true
+    sort_by:          date
 
 # Build settings
 plugins:

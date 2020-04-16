@@ -7,7 +7,7 @@ title: HoloFab
 permalink: /
 ---
 
-![HoloFab](./assets/images/GSS19-01.png)
+![HoloFab](<{{ "/assets/images/GSS19-01.png" | prepend: site.baseurl | prepend: site.url }}>)
 
 <br>
 
@@ -22,13 +22,13 @@ For the moment HoloFab supports **Microsoft Hololens** and **Android devices wit
 
 <br>
 
-![HoloFab](./assets/images/GSS19-00.jpg)
+![HoloFab](<{{ "/assets/images/GSS19-00.jpg" | prepend: site.baseurl | prepend: site.url }}>)
 
 <br>
 
 <hr>
 
-## [Who](./about)
+## [Who](<{{ '/about' | prepend: site.baseurl | prepend: site.url }}>)
 
 We are an international team of architects passionate about integrating **Technology in Architecture**. All three of us passed through Institute of Advanced Architecture of Catalonia where the seeds of the project began.
 
@@ -58,17 +58,32 @@ For the moment the tool is in **beta** stage of development. Latest releases:
 
 <!-- For installation instructions go [here](<>). -->
 
-This is an opensource project. You can find sources here:
+This is an **opensource** project. You can find sources here:
 
 -   [Github: Holofab for Grasshopper](https://github.com/HoloFab/HoloFab-Grasshopper)
 -   [Github: Holofab for Unity](https://github.com/HoloFab/HoloFab-Unity)
 
 <!-- For more detailed documentation go [here](<>). -->
 
-<!-- For examples go [here](<>). -->
+You can also check out latest examples and updates of the projects in our **[news feed](<{{ '/feed' | prepend: site.baseurl | prepend: site.url }}>)**. Here is the latest one:
+
+<ul class="cleanList">
+    {% assign count = site.posts.length %}
+    {% assign limit = 1 %}
+    {% assign start = count-limit %}
+    {% for post in site.posts limit:limit offset:start %}
+        <li>
+            <a href="{{ post.url }}"><h3> {{ post.title }} </h3></a>
+            {{ post.excerpt }}
+            <p class="right note">{{ post.date | date_to_string }}</p>
+        </li>
+    {% endfor %}
+</ul>
 
 <hr>
 
 ## Contact
 
-For any proposals, suggestions or bugs found feel free to [contact us](<mailto:{{ site.email }}>).
+If you have faced any problems or have any suggestions please consult **[Issues and plans](<{{ '/issues' | prepend: site.baseurl | prepend: site.url }}>)** to see our plans first. Feel free to let us know which features are you missing in our tool.
+
+For any proposals, suggestions or bugs as well as positive feedback :) found feel free to [contact us](<mailto:{{ site.email }}>).

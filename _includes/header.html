@@ -2,7 +2,7 @@
     <ul class="horisontalList">
         {% for menuItem in site.menu %}
         <li class = "horisontalListItem">
-            <a href="{{ menuItem.entry.url }}">{{ menuItem.entry.name }}</a>
+            <a href="{{ menuItem.entry.url | prepend: site.baseurl | prepend: site.url }}">{{ menuItem.entry.name }}</a>
         </li>
         {% endfor %}
     </ul>
