@@ -15,8 +15,8 @@ This is a base site for the set of **Augmented Reality** tools, that enable arch
 
 The tool consists of two parts:
 
--   Grasshopper plug-in;
--   AR application.
+- Grasshopper plug-in;
+- AR application.
 
 For the moment HoloFab supports **Microsoft Hololens** and **Android devices with [ARCore enabled](https://developers.google.com/ar/discover/supported-devices#android_play)**.
 
@@ -52,16 +52,16 @@ We are an international team of architects passionate about integrating **Techno
 
 For the moment the tool is in **beta** stage of development. Latest releases:
 
--   [Github: Holofab for Grasshopper](https://github.com/HoloFab/HoloFab-Grasshopper/tree/master/_CurrentVersion)
--   [Github: Holofab for Android](https://github.com/HoloFab/HoloFab-Unity/blob/master/_CurrentVersion/Android/)
--   [Github: Holofab for Hololens: _coming soon_](<>)
+- [Github: Holofab for Grasshopper (for any version of Rhino 6)](https://github.com/HoloFab/HoloFab-Grasshopper/tree/master/_CurrentVersion)
+- [Github: Holofab for Android](https://github.com/HoloFab/HoloFab-Unity/blob/master/_CurrentVersion/Android/)
+- [Github: Holofab for Hololens: _coming soon_]() // Code in Repo is up-to-date - just the build is missing
 
 <!-- For installation instructions go [here](<>). -->
 
 This is an **opensource** project. You can find sources here:
 
--   [Github: Holofab for Grasshopper](https://github.com/HoloFab/HoloFab-Grasshopper)
--   [Github: Holofab for Unity](https://github.com/HoloFab/HoloFab-Unity)
+- [Github: Holofab for Grasshopper](https://github.com/HoloFab/HoloFab-Grasshopper)
+- [Github: Holofab for Unity](https://github.com/HoloFab/HoloFab-Unity)
 
 <!-- For more detailed documentation go [here](<>). -->
 

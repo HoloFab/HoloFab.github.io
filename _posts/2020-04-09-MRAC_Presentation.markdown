@@ -1,9 +1,19 @@
 ---
 layout: default
-title:  "Presentation to MRAC"
-date:   2020-04-09
+title: "Presentation to MRAC"
+date: 2020-04-09
 categories: [workshops]
-tags: [HoloFab, HoloLens, MRAC, IAAC, students, demonstration, hardware, Remote Class]
+tags:
+  [
+    HoloFab,
+    HoloLens,
+    MRAC,
+    IAAC,
+    students,
+    demonstration,
+    hardware,
+    Remote Class,
+  ]
 excerpt_separator: <!--excerpt-->
 permalink: /workshops/:title:output_ext
 
@@ -20,4 +30,6 @@ In the session we Focused on exploring base concepts of Mixed Reality, broke dow
 
 <hr>
 
-// TODO: Add content
+In this small session we went through simple concepts that compose Mixed Reality environments and demonstrated practically on a couple examples the potential for the architects and digital fabricators, that the MRAC represent very precisely. Last part was successfully done remotely thanks to ability of HoloLens to transmit visual field to the computer. This way with minimal delay we managed to demonstrate all core functionalities - from using UI to control your design in AR, to controlling robots in the AR environment.
+
+In process we gathered important feedback on usability and interest in specific features from students. Looking worward to further collaboration with IAAC and MRAC!

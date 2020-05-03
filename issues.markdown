@@ -10,23 +10,28 @@ This pages serves as a collection of known issues and in progress features as we
 
 1.  Grasshopper
 
-    -   TCP communication buffering until change occurred in inputs;
-    -   Rhino crash upon trying to connect to multiple IP addresses;
+    - ~~Largely fixed: TCP communication buffering until change occurred in inputs;~~
+    - Robot Positions not sent until inputs updated;
+    - ~~Largely fixed: Rhino crash upon trying to connect to multiple IP addresses;~~
 
 2.  Unity: Android
 
+    - Minor: C-Plane shows up from beginning of application and doesn't wait for scanned mesh to appear;
+
 3.  Unity: HoloLens
 
-    -   C-Plane Movement is limited to just placing on scanned mesh;
+    - ~~Fixed: C-Plane Movement is limited to just placing on scanned mesh;~~
+    - Minor: Slider filled area not updating on dragging;
+    - Minor: Pin button Logo is a duplicate.
 
 ## Plans
 
--   Communicating points to Grasshopper;
--   Communicating scanned meshes back to Grasshopper;
--   Voice commands on HoloLens (? and on Android);
--   Multi-IP communication from Grasshopper;
--   Send Curve geometry from Grasshopper;
--   Send Point Cloud geometry from Grasshopper;
+- Communicating points to Grasshopper;
+- Communicating scanned meshes back to Grasshopper;
+- Voice commands on HoloLens (? and on Android);
+- Multi-IP communication from Grasshopper;
+- Send Curve geometry from Grasshopper;
+- Send Point Cloud geometry from Grasshopper;
 
 ## Suggestions
 
