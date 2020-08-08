@@ -42,7 +42,7 @@ On the other hand, Augmented and Mixed Reality technology slowly exits experimen
 
 As a result of the research, project proposes a working prototype of a system with complete coverage of the **extended space-use flow**: from the data collection, processing with Machine Learning techniques, to a system of informed space evaluation, to a communication system keeping the user in the loop in decision-making process, as well as proving a way to close this loop by participating in otherwise closed off and isolated systems and algorithms, thus democratizing the whole process.
 
-![Intraspace](<{{ page.excerptImage }}>)
+![Intraspace](http://www.iaacblog.com/wp-content/uploads/2019/07/20190402_170715_hololens.jpg)
 
 The project envisions a day when spaces become so complex and the digital systems so blended, that the use of Augmented Reality would not just be a entertainment factor or a pure visualization technique, but rather a necessary and immersive way to shape the space around you. The strategic position of AR on the spectrum of Mixed Reality makes it extremely powerful by benefitting in the most balanced way from both the physical and the digital - thus serving as a **common language** between the two.
 
