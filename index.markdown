@@ -26,7 +26,7 @@ For the moment HoloFab supports **Microsoft Hololens** and **Android devices wit
 
 <br>
 
-<hr>
+---
 
 ## [Who](<{{ '/about' | prepend: site.baseurl | prepend: site.url }}>)
 
@@ -46,7 +46,23 @@ We are an international team of architects passionate about integrating **Techno
 
 </ul>
 
-<hr>
+<br>
+
+#### _Acknowledgements:_
+
+- Special thanks to **[Institute for Advanced Architecture of Catalonia](https://iaac.net/)** for support in early stages of development, for providing Hololens for testing and for collaborating in applying the plugin in various in-house projects.
+
+<div class="smallIconHolder">
+<a href="https://iaac.net/"><img src="https://fablabbcn.org/img/logos/logo_partners_iaac.png"></a>
+</div>
+
+<br>
+
+- Thanks to **Arman Najari**, **Ashkan Foroughi** for episodic help in development. Thanks to **Luis Fraguada** for insights on Grasshopper side of plugin and for suggestions on networking.
+
+<br>
+
+---
 
 ## Sources
 
@@ -80,7 +96,7 @@ You can also check out latest examples and updates of the projects in our **[new
     {% endfor %}
 </ul>
 
-<hr>
+---
 
 ## Contact
 
