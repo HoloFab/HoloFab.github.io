@@ -17,7 +17,7 @@ tags:
 excerpt_separator: <!--excerpt-->
 permalink: /projects/:title:output_ext
 
-excerptImage: http://www.iaacblog.com/wp-content/uploads/2019/07/20190402_170715_hololens.jpg
+excerptImage: http://www.iaacblog.com/wp-content/uploads/2019/07/vlcsnap-2019-07-04-14h57m03s094.png
 ---
 
 ![Intraspace](<{{ page.excerptImage }}>)
