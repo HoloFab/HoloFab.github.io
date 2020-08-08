@@ -32,6 +32,8 @@ We are an international team of architects passionate about integrating **Techno
 
 <br>
 
-- Thanks to **Arman Najari**, **Ashkan Foroughi** for episodic help in development. Thanks to **Luis Fraguada** for insights on Grasshopper side of plugin and for suggestions on networking.
+- Thanks to **Arman Najari**, **Ashkan Foroughi** for episodic help in development.
+
+- Thanks to **Luis Fraguada** for insights on Grasshopper side of plugin and for suggestions on networking.
 
 <br>
