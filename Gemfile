@@ -18,7 +18,7 @@ gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem "nokogiri", "~> 1.10.9"
+  gem "nokogiri", "~> 1.13.9"
   gem "github-pages", "~> 204"
 end
 
